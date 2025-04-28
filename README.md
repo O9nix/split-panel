@@ -18,3 +18,18 @@
 <link rel="stylesheet" href="split-panel.css">
 <script src="split-panel.js"></script>
 ```
+А так же добавьте html блок:
+```html
+ <div id="container">
+    <div class="block" style="background-color: #3498db;">
+      <span class="block-id">Блок 1</span>
+      Основное содержимое
+    </div>
+  </div>
+
+  <div class="context-menu" id="contextMenu">
+    <button data-action="split-h">Разделить горизонтально</button>
+    <button data-action="split-v">Разделить вертикально</button>
+    <button data-action="remove">Удалить блок</button>
+  </div>
+```
